@@ -156,6 +156,16 @@
 		(uuid "e79aa8e2-682e-4a07-b8dd-8d9ab659e0cd")
 	)
 	(fp_line
+		(start -2.54 21.209)
+		(end 0 21.209)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "2e4b0252-d599-4cd6-bf80-35d4af181b10")
+	)
+	(fp_line
 		(start -2.54 21.844)
 		(end 1.4605 21.844)
 		(stroke
@@ -374,6 +384,16 @@
 		)
 		(layer "B.Cu")
 		(uuid "3cd1c332-d860-44e2-8918-cae873e429ab")
+	)
+	(fp_line
+		(start 0 21.209)
+		(end 2.54 21.209)
+		(stroke
+			(width 0.25)
+			(type default)
+		)
+		(layer "B.Cu")
+		(uuid "b31dfb4a-1232-4c80-a86e-376a4e8e5008")
 	)
 	(fp_line
 		(start 2.54 16.51)
@@ -827,6 +847,14 @@
 			)
 		)
 		(uuid "21873276-6dd4-461f-a352-acb00f183263")
+	)
+	(pad "2" thru_hole circle
+		(at 0 21.209 180)
+		(size 0.6 0.6)
+		(drill 0.3)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "63563430-e131-4847-ab1e-bcba05c7a9c9")
 	)
 	(pad "2" smd custom
 		(at 2.54 20.828 90)
